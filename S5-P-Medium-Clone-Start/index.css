@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@400;700&display=swap')family=Roboto:wght@400;700&family=Spectral+SC:ital,wght@0,400;0,700;1,700&display=swap");
+
+header {
+  background-color: #ffc017;
+  border: solid black 0.5px;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.navbar {
+  display: flex;
+  margin-right: 1%;
+  padding-block: 20px;
+  margin-left: 10%;
+}
+button {
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+  padding: 10px;
+}
+.content-button {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+.content-button p,
+button {
+  margin-inline: 20px;
+}
+.content-button p {
+  margin-top: 10px;
+}
+.intro {
+  min-height: 400px;
+  background-color: #ffc017;
+  padding-block: 60px;
+  padding-inline: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  border: solid black 0.5px;
+}
+h1 {
+  font-family: "Spectral", serif;
+  font-size: 130px;
+  font-weight: 400;
+
+  letter-spacing: -8px;
+}
+
+.intro h3 {
+  font-size: 30px;
+  line-height: 30px;
+}
+.intro button {
+  width: 200px;
+  font-size: 20px;
+}
+/* ------------ FINE PRIMA PARTE GIALLA---------
+-------------------------------------------
+---------------- */
+.margin {
+  border: solid black 0.5px;
+}
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+#generale span {
+  margin-top: 2px;
+  color: rgb(170, 170, 170);
+}
+#generale {
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+}
+.trending {
+  display: flex;
+  align-items: center;
+}
+.content {
+  display: flex;
+
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.box {
+  display: flex;
+  width: 27%;
+  margin-inline: 25px;
+  margin-bottom: 40px;
+}
+.trend {
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.svg {
+  display: flex;
+  align-items: center;
+}
+.svg p {
+  margin: 5px;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.number {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(236, 236, 236);
+}
+.img-svg {
+  width: 30px;
+  border-radius: 50%;
+  margin: 5px;
+}
